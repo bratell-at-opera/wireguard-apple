@@ -23,5 +23,9 @@ let package = Package(
             dependencies: [],
             publicHeadersPath: "."
         ),
+        .binaryTarget(
+            name: "WireGuardKitGo",
+            path: "Sources/WireGuardKitGo/out/WireGuardKitGo.xcframework"
+        )
     ]
 )
