@@ -25,7 +25,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "WireGuardKitGo",
-            path: "Sources/WireGuardKitGo/out/WireGuardKitGo.xcframework"
+            path: "WireGuardKitGo.xcframework.zip"
         )
     ]
 )
